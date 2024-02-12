@@ -32,11 +32,11 @@
 - Course Content
 - Adding Courses (Teacher's job)
 - UI/UX (CSS, JavaScript, Bootstrap, JQuery)
-- Uploading and downloading files (AJAX, JavaScript) - Teacher's job
+- Uploading and Downloading Files (AJAX, JavaScript) - Teacher's job
 - Responsiveness (Bootstrap, CSS)
 
 ## Screenshots
-| OpenLessons Screen | Course Content Screen | Login Screen | Teacher's Main Screen | Adding Courses Screen | Documents of Courses Screen | Uploading and downloading files Screen |
+| OpenLessons Screen | Course Content Screen | Login Screen | Teacher's Main Screen | Adding Courses Screen | Documents of Courses Screen | Uploading and Downloading Files Screen |
 |--------------------|-----------------------|-------------------------|------------------|-----------------------|------------------------|----------------------------------------|
 | ![OpenLessons Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/ccd76039-a2ef-423c-8c46-bdadf50ca2e5) | ![Course Content Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/f32e687c-d426-45e9-8fab-817f756d45ac) | ![Course Documents Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/6b5c0d7f-a28a-4385-9ed3-29d5b0b96e62) | ![Login In Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/00cab1e8-571a-40c5-be73-7163a12d1f0c) | ![Teacher's Main Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/bf280af9-d51d-42a4-9b08-9776ebf5c86c) | ![Adding Courses Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/8cede52c-5c3a-44eb-9d08-dedad6c27870) | ![Uploading and downloading files Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/8cede52c-5c3a-44eb-9d08-dedad6c27870) |
 
