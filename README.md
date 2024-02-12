@@ -30,7 +30,7 @@
 - Login In of Teacher (username: teacher1, password: teacher1)
 - Course Content
 - Adding Courses
-- UI/UX (CSS,JavaScript, Bootstrap, JQuery)
+- UI/UX (CSS, JavaScript, Bootstrap, JQuery)
 - Uploading and downloading files (AJAX, JavaScript)
 - Responsiveness (Bootstrap, CSS)
 
