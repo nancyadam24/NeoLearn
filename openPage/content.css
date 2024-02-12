@@ -1,0 +1,36 @@
+/* === position of title === */
+.title{
+    text-align: center;
+}
+
+.titleBoxContainer {
+    margin-left:-0.1em;
+}
+
+/* === position and responsiveness for box-container === */
+.box-container {
+    background-color: #f0f0f0;
+    width: 75vw; 
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 0 auto; 
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+}
+
+/* === size of image === */
+.lessonImage {
+    max-width: 100%; 
+    height: auto; 
+}
+
+

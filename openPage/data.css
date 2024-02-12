@@ -1,0 +1,38 @@
+/* === centering of attributes === */
+td i.fa-download {
+    margin-left: 2em;
+}
+
+.container {
+    margin: 0 auto; 
+}   
+
+/* === positioning of attributes === */
+td i.fa-file,
+td i.fa-folder {
+    transform: translateX(1em); 
+}
+
+.table-md tbody tr td {
+    width: 5em;
+}
+
+.hidden {
+    display: none;
+}
+
+.fa-add {
+    margin-right: 5px; 
+}
+
+.table a {
+    text-decoration: none;
+}
+
+.fa-download:hover {
+    cursor: pointer;
+}
+
+
+
+

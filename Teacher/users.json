@@ -1,0 +1,29 @@
+[
+    {
+        "id": "f64ec4fa-a731-11ee-97d5-da97aed54098",
+        "username": "manager1",
+        "password": "manager1",
+        "displayName": "Παύλος Οκορότσα",
+        "permissions": "admin",
+        "role": 1,
+        "datetime": "2023-12-30 18:39:12"
+    },
+    {
+        "id": "f64ec4fa-a731-11ee-97d5-da97aed54099",
+        "username": "teacher1",
+        "password": "teacher1",
+        "displayName": "Σταύρος Σουραβλάς",
+        "permissions": "write",
+        "role": 2,
+        "datetime": "2024-01-01 10:00:58"
+    },
+    {
+        "id": "f64ec4fa-a731-11ee-97d5-da97aed54100",
+        "username": "user1",
+        "password": "user1",
+        "displayName": "Χάρις Κοψαλή",
+        "permissions": "read",
+        "role": 3,
+        "datetime": "2024-01-04 13:26:32"
+    }
+]

@@ -1,0 +1,49 @@
+/* === centering of attributes === */
+td i.fa-download {
+    margin-left: 2em;
+}
+
+.container {
+    margin: 0 auto; 
+}   
+
+/* === positioning of attributes === */
+#files {
+    transform: translateX(1em); 
+}
+
+#newfiles {
+    transform: translateX(1em); 
+}
+
+.table-md tbody tr td {
+    width: 5em;
+}
+
+/* CSS για την κλάση hidden */
+.hidden {
+    display: none;
+}
+
+
+.table a {
+    text-decoration: none;
+}
+
+.fa-download:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 0.5em;
+    float: right;
+    color: white;
+    margin-top: -0.3em; /* Αρνητικό margin για να τοποθετηθεί πάνω από το "Download" */
+}
+
+.btn-primary:hover {
+    background-color: #4B0082;
+}
+
+
+

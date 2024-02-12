@@ -1,0 +1,77 @@
+/* =============== main-content =============== */
+/* === content of box container === */
+#box-container {
+    border-radius: 35px;
+    border: 2px solid #f1f0f0;
+    background-color: #f1f0f0;
+    padding: 1em;
+}
+
+.titleBoxContainer {
+    color: black;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+/* === list of open subjects === */
+.boxItems {
+    border-radius: 35px;
+    background-color: rgba(191, 176, 248, 0.75);
+    padding: 0.5em;
+    padding-left: 1em;
+    margin: 1em;
+}
+
+.boxItems:hover {
+    background-color: #bf98f8;
+}
+
+.itemsA {
+    text-decoration: none;
+    color: black;
+}
+
+.itemsA h4 {
+    font-weight: bold;
+}
+
+/* === separated option for reminding if not logged in their account === */
+.logInCont {
+    text-align: center;
+}
+
+.logInDescription {
+    font-weight: bold;
+}
+
+.logInBtn {
+    border-radius: 15px;
+    background-color: rgba(28, 17, 67, 0.75);
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.logInBtn:hover {
+    background-color: #4B0082;
+    color: white;
+    border: none;
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+    #box-container {
+        max-width: 900px;
+        width: 100%;
+    }
+}
+
+
+

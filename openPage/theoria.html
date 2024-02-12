@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=======================SEO=======================-->
+     <meta name="description" content="Περιγραφή της σελίδας Θεωρία Υπολογισμού">
+     <meta name="keywords" content="Θεωρία Υπολογισμού, DAI2032, Ρεφανίδης Ιωάννης, υπολογιστές">
+     <meta name="author" content="Ρεφανίδης Ιωάννης">
+     <meta name="robots" content="index, follow">
+     <!-- Additional metadata for Open Graph (for social sharing) -->
+     <meta property="og:title" content="Θεωρία Υπολογισμού">
+     <meta property="og:description" content="Το μάθημα 4">
+     <!-- Content recognition by search engines -->
+     <meta name="robots" content="index, follow">
+     <!-- Prevent embedding in iframes from other websites -->
+     <meta http-equiv="X-Frame-Options" content="deny">
+    <!--=======================CSS=======================-->
+    <link rel="stylesheet" href="commonFeaturesStyle.css">
+    <link rel="stylesheet" href="openHomePageStyle.css">
+    <link rel="stylesheet" href="content.css">
+    <!--==================== "BOOTSTRAP" ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!--==================== "FONTAWESOME" ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- === tiitle of browser tab === -->
+    <title>Θεωρία Υπολογισμού - DAI2032 | NeoLearn</title>
+</head>
+
+<body>
+
+    <div class="main-container d-flex">
+
+        <!--=============== (vertical) side-navbar ===============-->
+        <div class="sidebar" id="side_nav">
+            <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+                <h1 class="fs-4 logoImg">
+                    <a href="openHomePage.html">
+                        <img src="startimg.png" class="logoImage" alt="logoImg">
+                    </a>
+                </h1>
+            </div>
+            <br>
+
+            <!-- === basic options with arrow button & tabs === -->
+            <section>
+                <div class="searcher">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" id="searcher" placeholder="Αναζήτηση...">
+                </div>
+                <ul id="resultsList"></ul>
+                <button class="arrow-button" onclick="toggleCategories()">
+                    <img src="tagimg.png" class="backBasicOptions" alt="tagimg">
+                    <span class="button-text">Βασικές Επιλογές 
+                        <i class="fa fa-chevron-right arrowBMenu"></i>
+                    </span>
+                </button>
+                <nav class="customNav">
+                    <ul id="categories-list">
+                        <a href="openHomePage.html">
+                            <li>
+                                <i class="fa fa-home"></i>
+                                Αρχική
+                            </li>
+                        </a>
+                        <a href="data_of_theoria.html">
+                            <li>
+                                <i class="fa fa-folder"></i>
+                                Έγγραφα
+                            </li>
+                        </a>
+                        <a href="#contact">
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Επικοινωνία
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+
+        <!--=============== main-content ===============-->
+        <div class="content">
+            <main>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+
+                        <!--=== Name instead of logo for mobile & open-btn for menu ===-->
+                        <div class="d-flex justify-content-between d-md-none d-block">
+                            <a class="navbar-brand fs-4" href="#">Neolearn</a>
+                            <button class="btn px-1 py-0 open-btn navbar-toggler navbarBtn">
+                                <i class="fa fa-stream"></i>
+                            </button>
+                        </div>
+
+                        <!-- === Account dropdown button === -->
+                        <div class="col-1 col-sm-1 col-md-7"></div>
+                        <div class="col-6 col-sm-4 col-lg-3 col-xl-4 col-xxl-3 dropdown-center">
+                            <button class=" dropdown-toggle userButton" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <p class="userDescription">Λογαριασμός</p>
+                                <img src="userimg.png" class="userImage" alt="userImg">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                                <li><a class="dropdown-item" href="login.html">Σύνδεση</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <hr class="mx-2">
+
+                <!--=== pathway when is needed ===-->
+                <nav aria-label="breadcrumb"
+                    style="padding: 1em; margin-left: 1em; padding-bottom: 0; margin-bottom: 0;">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active">
+                            <a href="openHomePage.html">Αρχική</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="data_of_theoria.html">Έγγραφα</a>
+                        </li>
+                        <!-- === Current webpage === -->
+                        <li class="breadcrumb-item" aria-current="page">
+                            Περιεχόμενο
+                        </li>
+                    </ol>
+                </nav>
+
+                <hr class="mx-2">
+
+                <!-- === title of lesson === -->
+                <div class="title">
+                    <h2 class="title mt-4">Θεωρία Υπολογισμού (DAI2032)</h2>
+                    <small class="text-muted">Ρεφανίδης Ιωάννης</small>
+                </div>
+                <br>
+                <!-- === content of box container of leitourgika === -->
+                <div class="box-container">
+                    <div class="col-md-6">
+                        <h4 class="titleBoxContainer">Περιγραφή</h4>
+                        <div class="col-md-11 lessonImage-container">
+                            <img src="lesson-content-img.png" class="lessonImage img-fluid" alt="lessonImg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-12 mt-5 ms-6">
+                            <p class="text-justify">[03/11/23] Την Τετάρτη 8/11 στις 10:00-12:00 θα γίνει επιπλέον διάλεξη του μαθήματος στο Αμφιθέατρο 3.
+                                <br> [06/10/23] Την Πέμπτη 12/10 στις 14:00-16:00 θα γίνει επιπλέον διάλεξη του μαθήματος στο Αμφιθέατρο 1.
+                                 <br>[03/10/23] Καλωσήλθατε στο μάθημα ΜΥΥ501 Θεωρία Υπολογισμού!
+                                 <br>[03/10/23] Αναρτήθηκαν οι βαθμοί περιόδου Σεπτεμβρίου 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                    <!-- === separated option for reminding if not logged in their account === -->
+                    <div class="logInCont">
+                        <p class="logInDescription">Δεν έχεις συνδεθεί ακόμα;</p>
+                        <a href="login.html" class="logInBtn">Σύνδεση</a>
+                    </div>  
+                </main>     
+
+                 <!--=== footer ===-->
+                 <footer id="contact" class="bg-light text-center text-lg-start">
+                    <div class="text-center footerS">
+                        <p>NeoLearn &copy; 2024</p>
+                        <p>Find us on social media:
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        </p>
+                        <p>Tel: 23xxx-xxxxx</p>
+                    </div>
+                </footer>
+            </div>   
+
+
+        <!-- === input JS libraries & files === -->
+        <!--=============== JS-BOOTSTRAP-POPPER ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <!--=============== J-QUERY ===============-->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <!--=============== custom JS for mobile - side navbar ===============-->
+        <script src="mobileSideNavBar.js"></script>
+        <script src="basciOptions.js"></script>
+        <script src="contact.js"></script>
+        <script src="searcher.js"></script>
+</body>
+</html>

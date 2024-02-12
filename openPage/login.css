@@ -1,0 +1,93 @@
+/* === Hidding the blank space at x-axis === */
+body {
+    overflow-x: hidden;
+}
+
+.main-container {
+    overflow-x: hidden;
+}
+
+.loginImg {
+    max-width: 80%;
+}
+
+/* === designing of the login-form and its attributes === */
+.form-container {
+    background-color:#C5B8F4; 
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.25);
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    color: black; 
+}
+
+.logInBtn {
+    background-color: #fff; 
+    color: black; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 23px rgba(0, 0, 0, 0.25);
+}
+
+.input-form{
+    width: 100%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #333333;
+    border-radius:6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.input-form:focus {
+    outline: none;
+    border-color: #66afe9; 
+}
+
+.input-control{
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #333333;
+    border-radius:6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.input-control:focus {
+    outline: none; 
+    border-color: #66afe9; 
+}
+
+.password-show-card .input-control:focus{
+    border: 1px solid #66afe9;
+}
+
+.password-show-card{
+	position: relative;
+}
+
+.password-show-card .password-show{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

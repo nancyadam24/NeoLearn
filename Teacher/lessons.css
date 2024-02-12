@@ -1,0 +1,53 @@
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.titleBoxContainer {
+    margin-right: 10px; 
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.addLessons {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.addBtn{
+    border-radius: 15px;
+    background-color: rgb(110, 227, 110);
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: auto;
+    border: none;
+}
+
+.addBtn:hover{
+    background-color:rgb(93, 190, 93);
+    color: white;
+    border: none;
+}
+
+.addLessons i {
+    margin-right: 10px; /
+}
+
+
