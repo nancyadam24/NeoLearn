@@ -36,16 +36,10 @@
 - Responsiveness (Bootstrap, CSS)
 
 ## Screenshots
+
 | OpenLessons Screen | Course Content Screen | Course Documents Screen | Login In Screen | Teacher's Main Screen | Adding Courses Screen | Uploading and downloading files Screen |
 |--------------------|-----------------------|-------------------------|------------------|-----------------------|------------------------|----------------------------------------|
-| ![OpenLessons Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/f606cd16-06f0-48f1-9a5f-7c11e5423f20) | ![Course Content Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/04dbfae1-d7fb-4ea8-9bd6-39dc9fcf70ed)
- | ![Course Documents Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/cea4fcc1-2b1d-453f-bcc4-0afc5c11f1d9)
- | ![Login In Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/056e53a1-ee6a-405d-a90e-d1d0650bd5ae)
- | ![Teacher's Main Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/3d4b371e-05f5-4169-ac43-62755dd34fd8)
- | ![Adding Courses Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/4ec00eed-8a5f-4fd8-b679-b8f211b68da8)
- | ![Uploading and downloading files Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/cea466a7-9f05-4550-ad61-0789ce1d2772)
- |
-
+| ![OpenLessons Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/f606cd16-06f0-48f1-9a5f-7c11e5423f20) | ![Course Content Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/f32e687c-d426-45e9-8fab-817f756d45ac) | ![Course Documents Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/6b5c0d7f-a28a-4385-9ed3-29d5b0b96e62) | ![Login In Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/00cab1e8-571a-40c5-be73-7163a12d1f0c) | ![Teacher's Main Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/bf280af9-d51d-42a4-9b08-9776ebf5c86c) | ![Adding Courses Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/8cede52c-5c3a-44eb-9d08-dedad6c27870) | ![Uploading and downloading files Screen](https://github.com/nancyadam24/NeoLearn/assets/125753878/8cede52c-5c3a-44eb-9d08-dedad6c27870) |
 
 
 
