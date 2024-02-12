@@ -86,6 +86,9 @@ $ npm run test:cov
 
 Το API εκτελέιτε στην θύρα 3000, μπορείτε με ένα browser να μπείτε στο localhost:3000/docs και να διαβάσετε το documentation
 
+## Thanks to
+- Figma for UI/UX
+  
 ## Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
