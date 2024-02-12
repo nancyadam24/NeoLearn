@@ -28,7 +28,7 @@
 
 ## Mine Features
 - SEO 
-- Login In of Teacher (username: teacher1, password: teacher1)
+- Login of Teacher (username: teacher1, password: teacher1)
 - Course Content
 - Adding Courses (Teacher's job)
 - UI/UX (CSS, JavaScript, Bootstrap, JQuery)
